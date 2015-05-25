@@ -1,0 +1,29 @@
+{
+  "name": "override-decorator",
+  "version": "0.0.0",
+  "description": "Simple @Override decorator for ES7",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir .",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Legitcode/override-decorator.git"
+  },
+  "keywords": [
+    "override",
+    "decorator",
+    "es7"
+  ],
+  "author": "Legitcode",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/Legitcode/override-decorator/issues"
+  },
+  "homepage": "https://github.com/Legitcode/override-decorator#readme",
+  "devDependencies": {
+    "babel": "^5.4.7"
+  }
+}
