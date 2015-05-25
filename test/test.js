@@ -1,6 +1,6 @@
 import {expect} from 'chai';
 
-import Override from '..';
+import Override from '../src';
 
 describe('@Override', function() {
   let A;
