@@ -4,7 +4,7 @@
   "description": "Simple @Override decorator for ES7",
   "main": "index.js",
   "scripts": {
-    "build": "babel src --out-dir .",
+    "build": "eslint src && babel src --out-dir .",
     "prepublish": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,6 +24,8 @@
   },
   "homepage": "https://github.com/Legitcode/override-decorator#readme",
   "devDependencies": {
-    "babel": "^5.4.7"
+    "babel": "^5.4.7",
+    "babel-eslint": "^3.1.8",
+    "eslint": "^0.21.2"
   }
 }
